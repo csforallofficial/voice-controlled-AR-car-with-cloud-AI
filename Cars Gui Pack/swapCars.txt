@@ -1,0 +1,6 @@
+
+
+//Add to GameController
+
+public void showNewCar(string nextCar){ 	GameObject.Find (colourSwitcher.instance.getCurrentTracked ().name + "/activeItems/" + gameController.currentSelectedCar).SetActive(false); 	currentSelectedCar = nextCar; 	GameObject.Find (colourSwitcher.instance.getCurrentTracked ().name + "/activeItems/" + gameController.currentSelectedCar).SetActive(true);
+}  

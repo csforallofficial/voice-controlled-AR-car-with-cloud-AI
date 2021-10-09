@@ -1,0 +1,46 @@
+
+
+//Window Transform
+-0.106       0.912          -0.798
+-65.521      -15.169       11.37
+0.09176687   0.064505      0.02853123
+
+
+
+
+
+
+//Car Controller
+//above awake
+public static int selectedIndex = 0;
+	
+//Inside Start
+selectedIndex = i;
+
+
+
+
+
+
+Handle upgrade
+
+//Above handle function
+	public bool[,] itemOptions = new bool[,]{
+ 	//options order =open door, close door, start engine, stop engine, colour, windows, show engine, video, bonnet, hood 
+					{true,true,true,true,true,true,true,true,true,true}, //convertlambo
+					{true,true,true,true,true,true,true,true,true,true}, //orangeLambo
+					{true,true,true,true,true,false,true,true,true,true}, //Police Car
+					{true,true,true,true,true,true,true,true,true,true} //Tocus
+	};
+
+
+
+	public bool errorCheck(int row, int col){
+		return itemOptions [carController.selectedIndex,col];
+	}
+
+
+
+
+
+4.374909     2.460888    0.052409
